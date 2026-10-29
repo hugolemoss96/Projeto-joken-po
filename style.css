@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://picsum.photos/1920/1080");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes {
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+
+
+#pedra {
+    background-color: #167cdb;
+}
+
+#papel {
+    background-color: #14aaa3;
+}
+
+#tesoura {
+    background-color: #bd3817;
+}
+
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.pontuacao span{
+    color: rgb(53, 105, 196);
+}
+
+.pontuacao-maquina span{
+    color: rgb(202, 91, 91);
+}
